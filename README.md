@@ -1,2 +1,2 @@
 # odin-recipes
-First HTML Project on Git
+Make a nice recipe website that looks good and works fine with my knowledge of 

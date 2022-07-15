@@ -1,9 +1,0 @@
-{
-    "git.autoRepositoryDetection": false,
-    "git.enabled": false,
-    "git.autofetch": true,
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.useInlineCompletions": true,
-    "emmet.showAbbreviationSuggestions": true
-}

@@ -9,13 +9,26 @@
 </head>
 <body>
     <h1 id = "header"> Welcome to mxrah10's Recipe Page</h1>
-    <img src="recipe-images/chef.jpeg" alt="Chef">
-    <h3>A lot of delicious and easy to make recipes for when you're feeling hungry!</h3>
-    <ul>
-        <li><a href="recipes/beefpatty.html">Beef Patty</a></li>
-        <li><a href="recipes/cookies.html">Cookies</a></li>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-    </ul>
-    <a href="#header">Return to top</a>
+    <img class = "fatboi" src="recipe-images/chef.jpeg" alt="Chef">
+    <h3 class = "sub heading1">A lot of delicious and easy to make recipes for when you're feeling hungry!</h3>
+    <div>
+        <ul class = "recipes">
+            <li><a href="recipes/beefpatty.html">
+                <button class="btn">Beef Patty</button>
+            </a></li>
+            <li><a href="recipes/cookies.html">
+                <button class="btn">Cookies</button>
+            </a></li>
+            <li><a href="recipes/lasagna.html">
+                <button onclick="recipes/lasagna.html" class="btn">Lasagna</button>
+            </a></li>
+        </ul>
+    </div>
+    <div class ="return">
+        <a href="#header">
+            <button class="btn x">Return to top</button>
+        </a>
+    </div>
+
 </body>
 </html>
